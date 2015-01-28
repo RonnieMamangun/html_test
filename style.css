@@ -26,8 +26,8 @@ body {
 }
 
 #nav {
-  width:80%;
-}
+ width:80%;
+ }
 .menu {
   max-width:700px;
   list-style:none;
@@ -160,9 +160,11 @@ a {
 }
 
 .titleContentSide {
-  width:540px;
+  width: 80%;
 }
-
+.imagepost {
+  width:20%;
+}
 .blockcontent {
   position: relative;
   padding: 25px 0 32px;
@@ -338,4 +340,14 @@ h1, h2, h3, h4 {
 
 .item-info:last-child {
   border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.is-active {
+  font-weight:700 !important;
+  color:rgba(0,0,0,0.8) !important;
+}
+
+#searchbox {
+  position: fixed;
+  right: 0;
 }
